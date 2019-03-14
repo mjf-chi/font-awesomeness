@@ -1,0 +1,18 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "add-icon",
+      "identifier": "font-awesomeness.my-command-identifier",
+      "script": "./my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "font-awesomeness",
+    "items": [
+      "font-awesomeness.my-command-identifier"
+    ]
+  }
+}
